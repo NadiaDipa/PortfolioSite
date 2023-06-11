@@ -28,7 +28,7 @@ p{
     padding-bottom: 45px;
 }
 .name-color{
-    color: rgb(105, 61, 61);
+    color: rgb(104, 55, 55);
 }
 
 /* using display-flex */
@@ -53,7 +53,7 @@ p{
 /* button */
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(105, 61, 61),rgb(216, 170, 170));
+    background-image: linear-gradient(rgb(63, 30, 30),rgba(58, 35, 51, 0.308));
     color: white;
     font-size: 25px;
     font-weight: 700;
@@ -78,7 +78,7 @@ p{
 
 /* about-area */
 .about-area{
-    background-image: linear-gradient(rgb(253, 247, 247),rgb(233, 224, 226));
+    background-image: linear-gradient(rgba(241, 221, 221, 0.425),rgba(218, 189, 195, 0.459));
 }
 .about-paragraph{
     padding-right:140px;
@@ -91,6 +91,7 @@ p{
     padding-top: 70px;
     text-align: center;
     
+    
 }
 .specialize-paragraph{
     padding: 0 280px 90px;
@@ -102,22 +103,23 @@ p{
 }
 .child{
     width: 40%;
-    box-shadow: 10px 5px 40px black;
+    box-shadow: 10px 5px 40px rgb(49, 39, 39);
     margin-left: 5%;
     margin-right: 5%;
     padding: 5px 15px;
     border-radius: 0 20px 50px 0;
     border-left: 10px solid;
-    border-image: linear-gradient(rgb(71, 48, 48),rgb(245, 164, 164)) 1 100%;
+    border-image: linear-gradient(rgb(63, 30, 30),rgba(116, 77, 104, 0.521)) 1 100%;
 }
 
 
 /* footer */
 footer{
     text-align: center;
-    background-image: linear-gradient(rgb(253, 247, 247),rgb(233, 224, 226));
-    margin-top: 140px;
-    padding-top: 45px;
+    background-image: linear-gradient(rgba(241, 221, 221, 0.425),rgba(218, 189, 195, 0.459));
+    font-weight: 600;
+    margin-top: 165px;
+    padding-top: 30px;
 }
 .footer-paragraph{
     margin-bottom: 0;
